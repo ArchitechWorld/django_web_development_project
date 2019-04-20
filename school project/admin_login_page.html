@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Login Page</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div class="bgimage">
+	<div class="menu">
+		<div class="leftmenu">
+			<h4> MY SCHOOL </h4>
+		</div>
+		<div class="rightmenu">
+			<ul>
+				<a href="school_home_pg.html">
+					<li> HOME </li>
+				</a>
+				<li> SERVICES </li>
+				<li> WORKS</li>
+				<li> ABOUT </li>
+				<li> CONTACT </li>
+				<a href="log_out_pg.html">
+					<li> LOG OUT </li>
+				</a>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<img src="images/admin_avtar.png"/>
+	<form>
+		<div class="login_box">
+			<h1>Login</h1>
+			<div class="form_input">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<input type="text" name="uname" placeholder="Username" required/>
+			</div>
+			<div class="form_input">
+				<i class="fa fa-lock" aria-hidden="true"></i>
+				<input type="password" name="psw" placeholder="Password" required/>
+			</div>
+			<input type="Submit" name="sub" value="Login" class="btn_login" onclick="loginAdminPg()" />
+		</div>
+	</form>
+	<script type="text/javascript">
+		function loginAdminPg() {
+			
+		}
+	</script>
+</body>
+</html>
